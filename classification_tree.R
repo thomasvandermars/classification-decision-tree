@@ -87,7 +87,7 @@ rpart.plot(fm, # rpart object
            type = 2, # default is 2 (most info) -- easiest to read is 5
            extra = 102, # default is 102 
            tweak = 1.1, # makes text larger or smaller
-           main = "New Loan Requests - Classification Tree\nFull Model (98.35% test accuracy) [Complete Information]",
+           main = "New Loan Requests - Classification Tree\nFull Tree (98.35% test accuracy) [Complete Information]",
            box.palette = c("red1", "red3", "green3", "green1"),
            shadow.col = "lightgray")
 
@@ -96,7 +96,7 @@ rpart.plot(fm, # rpart object
            type = 5, # default is 2 (most info) -- easiest to read is 5
            extra = 8, # default is 102 
            tweak = 1.1, # makes text larger or smaller
-           main = "New Loan Requests - Classification Tree\nFull Model (98.35% test accuracy) [Readability Focus]",
+           main = "New Loan Requests - Classification Tree\nFull Tree (98.35% test accuracy) [Readability Focus]",
            box.palette = c("red1", "red3", "green3", "green1"),
            shadow.col = "lightgray")
 
@@ -105,7 +105,7 @@ rpart.plot(pm, # rpart object
            type = 2, # default is 2 (most info) -- easiest to read is 5
            extra = 102, # default is 102 
            tweak = 1.1, # makes text larger or smaller
-           main = "New Loan Requests - Classification Tree\nFull Model (98.25% test accuracy) [Complete Information]",
+           main = "New Loan Requests - Classification Tree\nPruned Tree (98.25% test accuracy) [Complete Information]",
            box.palette = c("red1", "red3", "green3", "green1"),
            shadow.col = "lightgray")
 
@@ -114,7 +114,7 @@ rpart.plot(pm, # rpart object
            type = 5, # default is 2 (most info) -- easiest to read is 5
            extra = 8, # default is 102 
            tweak = 1.2, # makes text larger or smaller
-           main = "New Loan Requests - Classification Tree\nFull Model (98.25% test accuracy) [Readability Focus]",
+           main = "New Loan Requests - Classification Tree\nPruned Tree (98.25% test accuracy) [Readability Focus]",
            box.palette = c("red1", "red3", "green3", "green1"),
            shadow.col = "lightgray")
 
